@@ -1,0 +1,45 @@
+body {
+    font-size: 13px;
+}
+
+#header-all {
+    display: flex;
+    justify-content:space-between;
+}
+
+#header-left {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+#header-left a{
+    margin: 7px;
+}
+
+#header-right {
+    display:flex;
+    flex-direction: row;
+   
+    align-items: center;
+}
+
+#header-right a{
+    margin: 7px;
+}
+
+#apps-button {
+    margin: 7px;
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+#sign-in-button {
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
