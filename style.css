@@ -1,3 +1,5 @@
+/* UNIVERSAL RULES */
+
 body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -12,6 +14,11 @@ a:hover {
     text-decoration-line: underline;
 }
 
+input:focus {
+    outline:none;
+}
+
+/* HEADER */
 
 #header-all {
     display: flex;
@@ -53,6 +60,10 @@ a:hover {
     color: white;
     border-radius: 5px;
     padding: 10px;
+}
+
+#sign-in-button:hover{
+    opacity: 0.9;
 }
 
 /* MAIN CONTENT */
@@ -100,6 +111,7 @@ a:hover {
     padding-bottom: 5px;
     border: none;
     background-color: white;
+    font-size: 14px;
     
 }
 
